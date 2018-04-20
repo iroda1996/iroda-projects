@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <link rel = "stylesheet" type="text/css" href = "main.css">
+        <script type= "text/javascript" src="script.js"></script>
+    </head>
+    <header>
+        <img src="logo.jpeg" class="logo">
+        <h1>Echo Zoo</h1>
+    </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Map</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="calendar.html">Calendar</a></li>
+                <li class = "dropdown"><a href="farm.html" class = "dropbtm">Animal Worlds</a>
+                <div class = "dropdown-content">
+                    <a href="farm.html">Farm Animals</a>
+                    <a href="africa.html">Africa World</a>
+                    <a href="imaginary.html">Imaginary Animals</a>
+                </div>
+                </li>
+                <li><a href="registration.html">Register</a></li>
+                <li><a href="catalogue.html">Online catalogue</a></li>
+            </ul>
+        </nav>
+    
+        <body>
+            <aside>
+        
+            <div id="checkout"></div>
+        <div id="hat">
+            <img src="hat.jpg" class="image2"> 
+            <p class="p">Hat $15</p>
+        </div>
+        <div id="toy">
+            <img src="toy.jpg" class="image2">
+            <p class="p">Teddy Bear $15</p>
+        </div>
+        <div id="bottle">
+            <img src="mug.jpg" class="image2">
+            <p class="p">Coffee mug $15</p>
+        </div>
+        <div id="turtle">
+            <img src="turtle.jpg" class="image2">
+            <p class="p">Real pet turtle $15</p>
+        </div>
+        <div id="butterfly">
+            <img src="butterfly.jpg" class="image2">
+            <p class="p">Picture frame $15</p>
+        </div>
+                </aside>
+    <div id="content">
+            <h2>Choose one of our products*</h2>
+            <input type="radio" id="product" value="hat" name="product"> Hat <br>
+            <input type="radio" id="product" value="teddy bear" name="product"> Teddy Bear <br>
+            <input type="radio" id="product" value="coffee mug" name="product"> Coffee Mug <br>
+            <input type="radio" id="product" value="turtle" name="product"> Turtle <br>
+            <input type="radio" id="product" value="picture frame" name="product"> Picture Frame <br>
+            <h2>Choose the amount you want to order</h2>
+            <input type="number" id="amount"> <br>
+            <br>
+          <button type="button" onclick="build_three('checkout'); return false;">Buy now</button>
+        <p><strong>*Note: </strong> You can purchase one item at a time</p>
+    </div>
+            
+    </body>
+    <footer class="catalogue">Questions? Concerns? Email zoolife@echozoo.com</footer>
+</html>
